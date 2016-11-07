@@ -7,3 +7,4 @@ Using app mobile authentication apps
   correct time zone setted
 - Generate the Qr code with the secret should be fine ( tons of JS to do this )
 
+https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm
