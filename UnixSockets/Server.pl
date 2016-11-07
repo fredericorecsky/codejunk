@@ -31,6 +31,7 @@ while ( 1 ) {
     eval {
         $accept = accept( Client, Server );
         $count ++;
+        1;
     } or do {
         warn "$@";
     };
@@ -41,7 +42,7 @@ while ( 1 ) {
             #open(STDIN,  "<&Client")    || die "can't dup client to stdin";
             open(STDOUT, ">&Client")    || die "can't dup client to stdout";
             print "[$$]$count-$not Tim maia\n";
-            close Client;
+            shutdown( Client, 2 );
             POSIX::_exit(0);
             exit;
         }
