@@ -1,0 +1,51 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+
+use File::Basename;
+use Getopt::Long;
+#use PZXY;
+
+my $org_path = __FILE__;
+
+my %plugins;
+for my $plugin ( PZXY->commands() ){
+    $plugins{ $plugin->name() } = $plugin;
+}
+
+my ( $list, $test, $generate, $path );
+
+GetOptions(
+    "list"          => \$list,
+    "test"          => \$test,
+    "generate"      => \$generate,
+    "path=s"        => \$path,
+) or die "No option given\n";;
+
+$list && list();
+
+
+sub generate {
+    my $cwd = 0;
+    if ( -d $path ) {
+        
+    }
+    
+}
+
+sub list {
+    print "Available commands:\n";
+    print join "\n", keys %plugins, "\n";
+}
+
+package XZY {
+
+    use Module::Pluggable
+        search_path =>'PZXY',
+        sub_name => 'commands',
+        require =>1;
+
+}
