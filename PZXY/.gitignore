@@ -1,5 +1,9 @@
 #links
 bin/
+# data / datasources
+data/
+index/
+ds/
 # swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
