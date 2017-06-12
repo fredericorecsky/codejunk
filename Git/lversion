@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Find;
+
+my $git_tree = `git rev-parse --show-toplevel`;
+
+if ( !$? ) {
+
+    my $last_commit = `git log --format='%H' -n 1`;
+    chomp $last_commit;
+    print $last_commit;
+
+}else{
+    die "Not into a git_tree\n";
+}
+
+
+
+
