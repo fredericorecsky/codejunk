@@ -1,0 +1,10 @@
+/home/frecsky/git_tree/codejunk/c_sharp/bin/Debug/netcoreapp2.0/c_sharp.deps.json
+/home/frecsky/git_tree/codejunk/c_sharp/bin/Debug/netcoreapp2.0/c_sharp.runtimeconfig.json
+/home/frecsky/git_tree/codejunk/c_sharp/bin/Debug/netcoreapp2.0/c_sharp.runtimeconfig.dev.json
+/home/frecsky/git_tree/codejunk/c_sharp/bin/Debug/netcoreapp2.0/c_sharp.dll
+/home/frecsky/git_tree/codejunk/c_sharp/bin/Debug/netcoreapp2.0/c_sharp.pdb
+/home/frecsky/git_tree/codejunk/c_sharp/obj/Debug/netcoreapp2.0/c_sharp.csproj.CoreCompileInputs.cache
+/home/frecsky/git_tree/codejunk/c_sharp/obj/Debug/netcoreapp2.0/c_sharp.AssemblyInfoInputs.cache
+/home/frecsky/git_tree/codejunk/c_sharp/obj/Debug/netcoreapp2.0/c_sharp.AssemblyInfo.cs
+/home/frecsky/git_tree/codejunk/c_sharp/obj/Debug/netcoreapp2.0/c_sharp.dll
+/home/frecsky/git_tree/codejunk/c_sharp/obj/Debug/netcoreapp2.0/c_sharp.pdb
